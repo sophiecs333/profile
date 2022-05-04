@@ -1,0 +1,90 @@
+
+
+body {
+  background: linear-gradient(#081c15, #1b4332, #2d6a4f, #40916c, #52b788, #74c69d, #95d5b2, #b7e4c7, #d8f3dc);
+  font-family: 'Open Sans', 'sans serif';
+  text-align: center;
+  font-weight: 300;
+}
+
+.container {
+  margin: auto;
+  margin-top: 30px;
+  background: #b7e4c7;
+  width: 40%;
+  border: 3px #1b4332;
+  padding: 20px 20px;
+}
+
+
+h1 {
+  color: #1b4332;
+  font-family: Bangers;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #2d6a4f;
+  font-weight: 500;
+}
+
+p {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: 25px;
+    background: #2d6a4f;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #2d6a4f;
+}
+
+.img-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
