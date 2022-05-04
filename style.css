@@ -1,7 +1,11 @@
 
 
 body {
-  background: linear-gradient(#081c15, #1b4332, #2d6a4f, #40916c, #52b788, #74c69d, #95d5b2, #b7e4c7, #d8f3dc);
+  background: linear-gradient(#081c15, #1b4332,
+  #2d6a4f, #40916c, #52b788,
+  #74c69d, #95d5b2, #b7e4c7,
+  #d8f3dc);
+  background-image: url("images/leaves.jpg");
   font-family: 'Open Sans', 'sans serif';
   text-align: center;
   font-weight: 300;
@@ -10,7 +14,7 @@ body {
 .container {
   margin: auto;
   margin-top: 30px;
-  background: #b7e4c7;
+  background: linear-gradient(70deg, #95d5b2, #d8f3dc);
   width: 40%;
   border: 3px #1b4332;
   padding: 20px 20px;
